@@ -1,0 +1,487 @@
+
+
+
+
+.textBox{
+       
+}
+
+
+
+body {
+    background-color: lightblue;
+}
+
+
+#testbgcolor{
+    background-color:yellow;
+}
+
+.main-nav li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+.main-nav li a.active,
+.main-nav li a.active:hover,
+.main-nav li a.active:focus {
+    //background-color: #4189C7;
+    background-color: bisque;
+    color:brown;
+}
+
+/* Keep the nav menu independent of scrolling and on top of other items */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+
+/* ................................................ */
+/* ................................................ */
+
+
+
+/* Eget css */
+
+
+
+
+/*   quiz - komponenten   */
+
+/* fråga-area */
+
+/* färgglatt meddelande:  game over */
+
+#gameOverText1 {
+    color: aqua;
+    font-size:large;
+}
+
+#gameOverText2 {
+    color: yellow;
+    font-size: large;
+}
+
+
+#gameOverText3 {
+    color: chartreuse;
+        font-size:large;
+}
+
+
+#gameOverText4 {
+    color: coral;
+    font-size: large;
+}
+
+    
+
+/* fråge-yta  */
+
+.list-group-item{
+    margin-right:17%;
+    margin-top: 2%;
+}
+
+
+.questheadercolor {
+    background-color: bisque;
+}
+
+
+
+
+/*   svars-texter   */
+
+
+.ratt {
+    color: green;
+}
+
+.fel{
+    color:red;
+    
+}
+
+
+/* fråge-knappar*/
+
+#svarsbutton{
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+
+#resultatbutton{
+    position:relative;
+    top:15px;
+}
+
+
+/* ................................................ */
+
+
+/* start-area */
+
+#startbutton {
+    position: relative;
+    top: 70px;
+    left: 0px;
+}
+
+#playerNameInput {
+    position: absolute;
+    top: 100px;
+    left: 18px;
+    
+}
+
+.nameLabel{
+   color: white;
+}
+
+
+
+/* ................................................ */
+
+
+
+/*  restart/resultat-area  */
+
+
+#restartbutton {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+
+.restartArea {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    color:white;
+}
+
+
+
+
+
+/* ................................................ */
+/* ................................................ */
+
+
+/*  Highscore komponenten */
+
+
+/* tabellen  */
+
+/* invertera striping:en på tabellen   */
+.table-striped > tbody > tr:nth-child(1n+1) > td, .table-striped > tbody > tr:nth-child(1n+1) > th {
+    background-color: white;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: lightblue;
+}
+
+
+/* ................................................ */
+/* ................................................ */
+
+
+/*  AdminQuestions komponenten  */
+
+#nextbutton{
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+
+#prevbutton {
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+
+#toaddquestionbutton {
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+
+#toeditquestionbutton {
+    position: relative;
+    top: 10px;
+    left: 27px;
+}
+
+
+#deletequestionbutton {
+    position: relative;
+    top: 10px;
+    left: 55px;
+}
+
+
+
+/* Add Qeustion Area:n */
+
+
+
+#backToMainAreaButton {
+    position: absolute;
+    top: 555px;
+    left: 10px;
+}
+
+
+
+/* Edit Qeustion Area:n */
+
+
+#backToMainAreaButton2 {
+    position: absolute;
+    top: 555px;
+    left: 10px; 
+}
+
+
+/* ................................................ */
+/* ................................................ */
+
+
+/* AddQuestion komponenten */
+
+/* bakgrundsfärger för textboxar och labels  */
+.questitemcolor {
+    background-color: white;
+}
+
+
+#questiontextbox{
+
+    position: relative;
+    top:10px;
+    left: 50px;
+
+}
+
+
+
+/* positionering: labels  */
+
+
+#questionlabel {
+    position: absolute;
+    top: 77px;
+    left: 10px;
+}
+
+
+
+#lablealternative1 {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+
+#lablealternative2 {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+
+#lablealternative3 {
+    position: absolute;
+    top: 318px;
+    left: 10px;
+}
+
+
+#lablerightanswer {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+
+
+/*  positionering:  textboxar   */
+
+
+#questiontextbox{
+    position:absolute;
+    top: 130px;
+    left: 10px;
+}
+
+#alternative1textbox {
+    position: absolute;
+    top: 212px;
+    left: 10px;
+}
+
+
+#alternative2textbox {
+    position: absolute;
+    top: 292px;
+    left: 10px;
+}
+
+
+#alternative3textbox {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+}
+
+
+#rightanswertextbox {
+    position: absolute;
+    top: 452px;
+    left: 10px;
+}
+
+
+
+/*  add question sänd-knapp */
+
+#btnAddQuestion {
+    position: absolute;
+    top: 501px;
+    left: 10px;
+}
+
+
+
+/*  justering av question-label å textbox vid mindre skärmar  */
+/*
+@media (max-width: 767px) {
+    .questiionlabel {
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }   
+}
+    */
+
+
+
+/* ................................................ */
+/* ................................................ */
+
+
+
+
+
+
+
+/*    AdminQuestions komponenten  */
+
+
+/* media queries justeringar */
+@media (max-width: 767px) {
+    #toaddquestionbutton {
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+
+    #toeditquestionbutton {
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+
+    #deletequestionbutton {
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+}
+
+
+
+
+
+
+    /*  slut på eget css  */
+
+
+
+
+    /* ................................................ */
+    /* ................................................ */
+
+
+
+   
+    
+    @media (max-width: 767px) {
+        /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+        body {
+            padding-top: 50px;
+            background-color: lightblue;
+        }
+    }
+
+
+
+    @media (min-width: 768px) {
+        /* On small screens, convert the nav menu to a vertical sidebar */
+        .main-nav {
+            height: 100%;
+            width: calc(25% - 20px);
+        }
+
+            .main-nav .navbar {
+                border-radius: 0px;
+                border-width: 0px;
+                height: 100%;
+            }
+
+            .main-nav .navbar-header {
+                float: none;
+            }
+
+            .main-nav .navbar-collapse {
+                border-top: 1px solid #444;
+                padding: 0px;
+            }
+
+            .main-nav .navbar ul {
+                float: none;
+            }
+
+            .main-nav .navbar li {
+                float: none;
+                font-size: 15px;
+                margin: 6px;
+            }
+
+                .main-nav .navbar li a {
+                    padding: 10px 16px;
+                    border-radius: 4px;
+                }
+
+            .main-nav .navbar a {
+                /* If a menu item's text is too long, truncate it */
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+    }
